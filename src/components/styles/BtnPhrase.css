@@ -1,0 +1,20 @@
+.card__btn{
+    display: block;
+    margin-left: auto;
+    background-color: gold;
+    border: none;
+    padding: 0.6em 1.2em;
+    font-size: 1.1rem;
+    border-radius: 0.7em;
+    font-weight: 400;
+    transition: transform 100ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 1em #0004;
+    background-color: #45a049;
+    color: white;
+}

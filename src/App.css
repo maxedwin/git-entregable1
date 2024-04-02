@@ -1,0 +1,24 @@
+.app{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+.app__title{
+    font-weight: 500;
+    font-size: 2rem;
+}
+.app__card{
+    width: 100%;
+    max-width: 500px;
+    background-color: rgb(19, 19, 22, 70%);
+    padding: 1.5em 2em;
+    border-radius: 0.8em;
+    display: grid;
+    gap: 1em;
+    box-shadow: 0.1em 0.1em 0.5em rgb(37, 37, 37) ;
+}
